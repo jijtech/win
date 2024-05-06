@@ -1,3 +1,7 @@
+to setup powershell:
+irm "https://github.com/jijtech/win/raw/main/setup.ps1" | iex
+
+
 some tools i use on NT systems
 * GlazeWM:              https://github.com/glzr-io/glazewm
 * Chris titus debloat:  iwr -useb https://christitus.com/win | iex           (Run as Admin)

@@ -1,6 +1,7 @@
-to setup powershell:
+To setup powershell, Run as admin:
+```
 irm "https://github.com/jijtech/win/raw/main/setup.ps1" | iex
-
+```
 
 some tools i use on NT systems
 * GlazeWM:              https://github.com/glzr-io/glazewm

@@ -1,3 +1,5 @@
+<img src='desktop.png' alt='Windows' align='center'/>
+
 To setup powershell, Run as admin:
 ```
 irm "https://github.com/jijtech/win/raw/main/setup.ps1" | iex

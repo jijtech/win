@@ -12,4 +12,4 @@ some tools i use on NT systems
 iwr -useb https://christitus.com/win | iex
 ```
 * PowerToys:            https://learn.microsoft.com/en-us/windows/powertoys/ ( cant live without )
-* godmode folder:       GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}       (If needed)
+Microwin / microsoft adk-oscdimg

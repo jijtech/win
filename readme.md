@@ -12,4 +12,5 @@ some tools i use on NT systems
 iwr -useb https://christitus.com/win | iex
 ```
 * PowerToys:            https://learn.microsoft.com/en-us/windows/powertoys/ ( cant live without )
+
 Microwin / microsoft adk-oscdimg

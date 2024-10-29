@@ -19,3 +19,25 @@ iwr -useb https://christitus.com/win | iex
 * PowerToys:            https://learn.microsoft.com/en-us/windows/powertoys/ ( cant live without )
 
 Microwin / microsoft adk-oscdimg
+
+---
+pwsh
+```
+
+ PrivCheck
+if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
+    Write-Warning "Please run this script as an Administrator!"
+    Exit
+}
+
+```
+
+CMD(batch)
+```
+:: Check for admin privileges
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo Please run this script as an Administrator!
+    exit /b 1
+)
+```
